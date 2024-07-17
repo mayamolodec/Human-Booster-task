@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Parcours modification</title>
+</head>
+<body>
+
+<form>
+    <div class="name_container">
+        <label class="name text_label" for="name-field">
+            Nom de parcours:
+            <input class="rect2" id="name-field"  />
+        </label>
+        <button type="submit">Enregistrer</button>
+    </div>
+      <div class="pos">
+      <label class="position text_label" for="coord-field">
+        Latitude:
+        <input class="rect2" id="coord-field" placeholder="45.76543" />
+      </label>
+      <label class="position text_label" for="coord-field">
+        Longitude:
+        <input class="rect2" id="coord-field" placeholder="4.64543" />
+      </label>
+      <button type="submit">Ajouter</button>
+    </div>
+    <div class="pos-container-big">
+        <div class="pos-container">
+            <p class="text_label">Positions:</p>
+            <div id="location" class="rect3"></div>  
+        </div>
+        <button type="submit" class="big button">Suprimer tous les positions</button>  
+    </div>
+    <a href="Accueil.html" class="button2 text_label">Retour à l’accueil </a>
+
+</form>
+
+</body>

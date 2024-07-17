@@ -1,0 +1,174 @@
+*{
+    font-family: "Space Mono", monospace;
+    font-style: normal;
+    color: #1E4A62;
+}
+
+.rect{
+    width: auto;
+    height: 90px;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left:18px;
+}
+
+
+.old{
+    background-color: #CDE9F9;
+}
+
+.new{
+    border-color: #67a4c8;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 17px;
+}
+
+.container {
+    width: 1000px;
+    margin:0 auto;
+}
+
+
+
+.title{
+        font-size: 50pt;
+        font-weight :600;
+}
+
+.parcous_list{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.button{
+
+    background-color: #67a4c8;
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 0px 15px 15px 0px;
+    align-content: center;
+}
+
+
+
+.text{
+    align-content: center;
+    font-size: 20px;
+}
+
+.text_label{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+form{
+    margin:0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction:column ; 
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.rect2{
+    height: 40px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: #CDE9F9;
+    width: 100%;
+}
+
+.rect3{
+    border: solid;
+    align-items: center;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: #CDE9F9;
+    width: 100%;
+    height: 300px;
+    margin-top:-25px;
+}
+
+
+  .name {
+    flex-grow: 2;
+    min-width: 0px;
+    align-self:flex-start;
+  }
+
+.name_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.pos-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.pos-container-big{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:30px;
+}
+
+
+input{
+    text-indent: 10px;
+  }
+
+.position {
+    flex-grow: 2;
+    flex-basis: 300px;
+    min-width: 0px;
+  }
+
+.pos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:30px;
+
+}
+
+
+button, .button2, .big{
+    border: #CDE9F9;
+    background-color:  #CDE9F9;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    height: 46.8px;
+}
+
+button{
+    padding: 15px 0px;
+    align-self: flex-end;
+    cursor: pointer;
+    width:160px;
+    flex-shrink: 0;
+}
+
+.button2{
+    background-color: #67a4c8;
+    height: 60px;
+}
+
+
+.big{
+    height: 90px;
+}
+

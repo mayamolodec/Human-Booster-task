@@ -44,19 +44,13 @@ VALUES ((SELECT id FROM parcours WHERE name ='Balade autour de la place Gailleto
 
 
 
-
-
 SELECT * FROM parcours
 ORDER BY name;
 
 
 
-
-
 SELECT * FROM parcours
 WHERE name LIKE '%place%';
-
-
 
 
 
